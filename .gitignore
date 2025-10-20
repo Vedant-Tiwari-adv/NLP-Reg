@@ -3,3 +3,5 @@ nimblecache/
 htmldocs/
 *.npz
 events.out*
+lora_env/
+*.pt
