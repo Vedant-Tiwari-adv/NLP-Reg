@@ -7,7 +7,7 @@ import re
 data_path = r"C:\Personal\Educational\Projects\NLP-Reg\LLM_training.npz"
 data = np.load(data_path, allow_pickle=True)
 df = pd.DataFrame({key: data[key] for key in data.files})
-df = df[['sample_id', 'catalog_content', 'log_price', 'img_pca_128']]
+df = df[['sample_id', 'catalog_content', 'log_price', 'img_pca_128']]   
 
 # === Preprocessing Settings ===
 
